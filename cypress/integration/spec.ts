@@ -23,18 +23,6 @@ declare namespace Cypress {
 }
 let LOCAL_STORAGE_KEY_AUTH: { [x: string]: any } = {};
 
-Cypress.Commands.add("login", () => {
-    const email = Cypress.env("email");
-    const password = Cypress.env("password");
-    Cypress.config("chromeWebSecurity", false);
-
-    cy.visit("/sign-in");
-    cy.get(".theme-connector-button-local").click();
-    cy.get("#login").type(email);
-    cy.get("#password").type(password);
-    cy.get(".button").click();
-});
-
 Cypress.Commands.add("saveLocalStorage", () => {
     if (Object) {
         Object.keys(localStorage).forEach((key: string | number) => {
