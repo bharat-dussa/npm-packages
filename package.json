@@ -2,5 +2,8 @@
   "name": "cypress-retain-login",
   "version": "1.0.0",
   "description": "Custom Command to Login to retain",
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.5.0"
+  }
 }
