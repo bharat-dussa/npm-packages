@@ -4,6 +4,7 @@
   "description": "Custom Command to Login to retain",
   "main": "index.js",
   "dependencies": {
-    "cypress": "^8.5.0"
+    "cypress": "^8.5.0",
+    "typescript": "^4.4.3"
   }
 }
