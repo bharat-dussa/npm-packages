@@ -1,0 +1,6 @@
+{
+  "name": "cypress-retain-login",
+  "version": "1.0.0",
+  "description": "Custom Command to Login to retain",
+  "main": "index.js"
+}
